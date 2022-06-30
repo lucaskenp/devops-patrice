@@ -1,4 +1,4 @@
-name: Build de projeto
+name: Testes automatizados
   
 on: 
   push: 
@@ -8,7 +8,7 @@ on:
     
 jobs:
   deploy-web:
-    name: Build
+    name: Testes
     runs-on: ubuntu-latest
     steps: 
     - name: Checkout para branch main
